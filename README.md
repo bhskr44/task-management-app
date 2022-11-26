@@ -47,7 +47,11 @@ If you want to work with Chrome Developer Tools, simply run the HTML document in
 
 ### Deployment
 
-If you like to deploy the website to AWS. Go to the article [Deploying a Laravel application to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-laravel-tutorial.html).
+If you like to deploy the website. Please refer to the articles below
+
+- [Deploying a Laravel application to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-laravel-tutorial.html).
+
+- [Deploy in Cpannel](https://dev.to/usefulsomebody/deploying-laravel-5-applications-on-shared-hosting-without-the-use-of-ssh--16a6) 
 
 ## Authors
 

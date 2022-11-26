@@ -1,0 +1,140 @@
+:root {
+    --main-color: rgb(200, 200, 200);
+    --font-color: rgb(17, 17, 17);
+    --main-color-light: rgb(232, 232, 232);
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monsterrat", sans-serif;
+}
+
+#tasks {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(162, 162, 162);
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input {
+    width: 75%;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    background-color: var(--main-color-light);
+    margin-left: 20px;
+}
+
+select {
+    width: 75%;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    background-color: var(--main-color-light);
+}
+
+.singleTask {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#tasks-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--main-color-light);
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--main-color);
+    border: 1px solid var(--font-color);
+}
+
+.form-ele {
+    width: 75%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.singleTask li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0 10px;
+    background-color: var(--main-color-light);
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+}
+
+#delete {
+    margin-left: 15px;
+}
+
+.icons {
+    display: flex;
+}
+
+.btn-forms {
+    margin-left: 10px;
+}
+
+.form-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--main-color);
+}
+
+.form-button:hover {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--font-color);
+}

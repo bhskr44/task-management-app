@@ -36,7 +36,6 @@ class TaskController extends Controller
     public function home()
     {
         $allTask = Tasks::select()->where('projectName', 1)->orderBy('priority', 'asc')->get();
-        return $allTask;
         return view('welcome', [
             'title' => 'Task Management App',
             'allTask' => $allTask,
